@@ -1,0 +1,32 @@
+
+ .cursive-text {
+  font-family: 'Dancing Script', cursive;
+  font-weight:700;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-input-container {
+  position: relative;
+  align-items:center;
+  gap:1rem;
+}
+
+.search-input {
+  padding-left: 2rem; /* Adjust based on icon size and desired padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.5rem; /* Adjust based on desired position */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* This ensures the icon does not interfere with input focus/click */
+}
