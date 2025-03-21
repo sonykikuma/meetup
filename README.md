@@ -1,17 +1,17 @@
-## Running React on Replit
+📌 Meetup App
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+A MERN stack application that allows users to browse and filter events based on various criteria. Users can search for events by tags and title and view detailed event pages.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+🚀 Features
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+✅ Display a list of upcoming events
+✅ Filter events based on online/offline status
+✅ Search events by tag and title
+✅ Click on an event to view detailed information
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+🛠️ Tech Stack
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
-
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+Frontend: React, Bootstrap 5
+Backend: Node.js, Express.js
+Database: MongoDB
+Deployment: Vercel
